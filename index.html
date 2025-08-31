@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol Kumar Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f9fafb;
+        color: #111;
+      }
+      header {
+        position: sticky;
+        top: 0;
+        background: white;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        z-index: 1000;
+      }
+      header nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+      }
+      header nav a:hover {
+        color: #007bff;
+      }
+      section {
+        padding: 3rem 2rem;
+        max-width: 1000px;
+        margin: auto;
+      }
+      h1,
+      h2 {
+        margin-bottom: 1rem;
+      }
+      .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+      }
+      .hero img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .skills,
+      .projects,
+      .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+      }
+      .card {
+        background: white;
+        border: 1px solid #eee;
+        border: 2px solid #31da2b;
+        border-radius: 12px;
+        padding: 1.2rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+        background-image: linear-gradient(to bottom right, #e6e93a, #56fc09);
+        background-size: cover;
+      }
+      footer {
+        border-top: 1px solid #ddd;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      .socials a {
+        margin: 0 8px;
+        color: #444;
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+      .socials a:hover {
+        color: #007bff;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.6rem 1.2rem;
+        background: #007bff;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+      .btn:hover {
+        background: #0056b3;
+      }
+      form {
+        display: grid;
+        gap: 1rem;
+      }
+      input,
+      textarea {
+        padding: 0.6rem;
+        border-radius: 6px;
+        border: 1px solid #0bf131;
+        width: 100%;
+      }
+      textarea {
+        resize: vertical;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><strong>Anmol • Portfolio</strong></div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div>
+        <h1>Hi, I’m Anmol Kumar</h1>
+        <p>Student Developer • Resume & Canva Designer</p>
+        <p>
+          I create clean resumes, simple websites, and short-form horror
+          content.
+        </p>
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn" style="background: #444; margin-left: 10px" href="#"
+          >Download CV</a
+        >
+        <div class="socials" style="margin-top: 1rem">
+          <a
+            href="https://www.instagram.com/itz__xmol?igsh=MWQ2eGNlZ24wNmNwMA=="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="www.linkedin.com/in/anmol-kumar25x"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.youtube.com/@FM-Tez"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <img src="A1.png" alt="Avatar" />
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Anmol Kumar. I am currently pursuing Bachelor of Computer Application (BCA) from
+        Amity University, Noida. I’m highly interested in technology, computer
+        applications, and online earning opportunities. I love creating clean
+        and modern resumes, simple websites, and engaging short-form content. I
+        also enjoy designing with Canva and exploring new digital tools. In my
+        free time, I like to watch horror movies and read about the latest tech
+        trends. I believe in continuous learning and always strive to improve my
+        skills. Feel free to connect with me on social media or check out my
+        projects below! I’m always open to new opportunities and collaborations.
+        Let's create something amazing together!
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Tailwind</div>
+        <div class="card">Canva</div>
+        <div class="card">Resume Design</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Resume Design Kit</h3>
+          <p>5 modern resume templates in Canva & Word.</p>
+        </div>
+        <div class="card">
+          <h3>FM-Tez</h3>
+          <p>horror storytelling YouTube Videos.</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio built with HTML, CSS & JS.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="services">
+        <div class="card">
+          <h3>Resume Design</h3>
+          <p>Professional ATS-friendly resumes.</p>
+        </div>
+        <div class="card">
+          <h3>Digital Business Card</h3>
+          <p>Minimal and sharable visiting cards.</p>
+        </div>
+        <div class="card">
+          <h3>Landing Page</h3>
+          <p>Simple one-page responsive websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>© 2025 Anmol Kumar • Built with HTML, CSS & JavaScript</footer>
+
+    <script>
+      function submitForm(e) {
+        e.preventDefault();
+        alert("Thank you! This is a demo form.");
+      }
+    </script>
+  </body>
+</html>
